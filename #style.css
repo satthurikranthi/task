@@ -1,0 +1,67 @@
+h1::first-letter{
+    color: blue;
+    font-size: 4rem;
+}
+
+p::first-letter{
+    color: blue;
+    font-size: 4rem;
+}
+
+
+p::selection{
+    background-color: black;
+    color: aqua;
+}
+
+li::marker{
+    content: "---->";
+}
+
+
+
+
+h1::before{
+    content:".....";
+}
+
+h1::after{
+    content:".....";
+}
+
+
+a{
+    font-size: 5rem;
+}
+
+a:link{
+    color: blueviolet;
+
+}
+
+
+a:hover{
+    color: brown;
+    background-color: black;
+    text-decoration: none;
+}
+
+
+a:active{
+    border-radius:20px ;
+    background-color: antiquewhite;
+
+}
+
+
+
+p:hover{
+    background-color: chocolate;
+    color: chartreuse;
+}
+
+
+iframe{
+    width: 500px;
+    height: 500px;
+}
